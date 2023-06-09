@@ -7,7 +7,9 @@
   },
   "host": "localhost:3001",
   "basePath": "/",
-  "schemes": ["http"],
+  "schemes": [
+    "http"
+  ],
   "paths": {
     "/createSchedules": {
       "post": {
@@ -16,6 +18,9 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
           }
         }
       }

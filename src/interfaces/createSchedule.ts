@@ -1,8 +1,8 @@
 export interface RestaurantResponse {
-  id: number;
-  yelpId: string;
-  name: string;
-  url: string;
-  rating: string;
-  phone: string;
+  Id: number;
+  YelpId: string;
+  Name: string;
+  Url: string;
+  Rating: string;
+  Phone: string;
 }
